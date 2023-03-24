@@ -2,45 +2,59 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Date;
 import java.util.List;
 
 public class Class {
-    private List<String> items = new ArrayList();
-    public File dir = new File("C:\\Users\\PC\\Downloads\\Telegram Desktop\\answer");        //добавить изменение имени
-    public void main(boolean isLong, boolean humanReadable, boolean reverse, String output) {
-            if (isLong) {
-                isItLong(reverse);
-            } else if (humanReadable) {
-                isHumanReadable(reverse);
-            }
-            Collections.sort(items);
-            if (output.isBlank()) {for (String it: items) {System.out.println(it);}} else {
-                try(FileWriter writer = new FileWriter(output))
-                {
-                    for (String it: items) {
-                        writer.write(it + "\n");
+    static List<String> items = new ArrayList();
+    public static void main(String[] args) {
+        File dirPath = new File(args[0]);
+        boolean isThereOutput = false;
+        for (int i = 1; i < args.length; i++) {
+            String flag = args[i];
+            switch (flag) {
+                case "[-l]":
+                    boolean isReverse = false;
+                    if (i < args.length - 1) if (args[i+1].equals("[-r]")) isReverse = true;
+                    isItLong(isReverse, dirPath);
+                    break;
+                case "[-h]":
+                    boolean isReversed = false;
+                    if (i < args.length - 1) if (args[i+1].equals("[-r]")) isReversed = true;
+                    isHumanReadable(isReversed,dirPath);
+                    break;
+                case "[-r]":
+                    break;
+                case "[-o]":
+                    isThereOutput = true;
+                    try(FileWriter writer = new FileWriter(args[i+1]))
+                    {
+                        for (String it: items) {
+                            writer.write(it + "\n");
+                        }
+                    } catch (IOException e) {
+                        throw new RuntimeException(e);
                     }
-                } catch (IOException e) {
-                    throw new RuntimeException(e);
-                }
+                    i++;
+                    break;
             }
-    }
-        public File[] isDirectory() {
-        if (!dir.isDirectory()) return File[dir];
-        else return dir.listFiles();
         }
-    public void isItLong(boolean reverse) {
-        for (File item : dir.listFiles()) {
+        if (!isThereOutput) System.out.println(items);
+    }
+    public static File[] isDirectory(File dirPath) {
+        if (!dirPath.isDirectory()) return new File[]{dirPath};
+        else return dirPath.listFiles();
+    }
+    public static void isItLong(boolean reverse, File dirPath) {
+        for (File item : isDirectory(dirPath)) {
             Date date = new Date(item.lastModified());
             if (!reverse) {items.add(item.getName() + "\t" + getPermissions(item, true) + "\t" + date + "\t" + item.length() + " bytes");} else {
                 items.add(item.length() + " bytes" + "\t" + date + "\t" + getPermissions(item, true) + "\t" +item.getName());
             }
         }
     }
-    public void isHumanReadable(boolean reverse) {
-        for (File item : dir.listFiles()) {
+    public static void isHumanReadable(boolean reverse, File dirPath) {
+        for (File item : isDirectory(dirPath)) {
             String len;
             if (item.length() > 2024 * 1024 * 1024) {
                 len = item.length() / 1024 / 1024 / 1024 + " Gigabytes";
@@ -56,7 +70,7 @@ public class Class {
             }
         }
     }
-    public StringBuilder getPermissions(File item, boolean isLongOrHR) {
+    public static StringBuilder getPermissions(File item, boolean isLongOrHR) {
         StringBuilder xxx = new StringBuilder();
         if (isLongOrHR) {
             if (item.canRead()) {
