@@ -1,0 +1,1 @@
+0 Kilobytes	rwx	first.bmp

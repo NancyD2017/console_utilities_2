@@ -1,0 +1,3 @@
+0 Kilobytes	rwx	first.bmp
+0 Kilobytes	rwx	premiere.docx
+0 Kilobytes	rwx	second.pptx

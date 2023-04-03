@@ -1,0 +1,3 @@
+first.bmp	111	Mon Apr 03 20:29:24 MSK 2023	0 bytes
+premiere.docx	111	Mon Apr 03 20:29:34 MSK 2023	0 bytes
+second.pptx	111	Mon Apr 03 20:29:43 MSK 2023	0 bytes

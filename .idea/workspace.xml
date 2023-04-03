@@ -5,9 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6eeabed8-727f-49ff-91c1-915d390ed256" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Class.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MyOptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Info_for_test/first.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Info_for_test/premiere.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Info_for_test/second.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Modified_answers/test1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Modified_answers/test10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Modified_answers/test11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Modified_answers/test2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Modified_answers/test3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Modified_answers/test4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Modified_answers/test5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Modified_answers/test6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Modified_answers/test7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Modified_answers/test8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Modified_answers/test9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Real_answers/test1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Real_answers/test10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Real_answers/test11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Real_answers/test2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Real_answers/test3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Real_answers/test4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Real_answers/test5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Real_answers/test6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Real_answers/test7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Real_answers/test8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Real_answers/test9.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Class.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Class.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FilesInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test.java" afterDir="false" />
     </list>
@@ -37,6 +63,17 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="console_utilities_2" type="f1a62948:ProjectNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="console_utilities_2" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="console_utilities_2" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -58,21 +95,30 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2NKjAZvq56ZuqratbLLCnu3BfzF" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;last_directory_selection&quot;: &quot;C:/Users/PC/IdeaProjects/console_utilities_2/src/test/java&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/PC/IdeaProjects/pr&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/PC/IdeaProjects/console_utilities_2/lib/argparse4j-0.9.0&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.41149426&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;ANTLRv4&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
@@ -80,7 +126,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Test.testForDirectory_IsLong_Reverse">
+  <component name="RunManager" selected="Gradle.Tests">
     <configuration name="Class [&quot;C:\\Users\\PC\\3D Objects&quot; &quot;[-l]&quot;]" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -122,7 +168,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Test.testAnswerInFile" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Tests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -135,7 +181,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;Test.testAnswerInFile&quot;" />
+            <option value="&quot;Tests&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -145,7 +191,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Test.testForDirectory_HumanReadable" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Tests.test1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -158,7 +204,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;Test.testForDirectory_HumanReadable&quot;" />
+            <option value="&quot;Tests.test1&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -168,7 +214,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Test.testForDirectory_HumanReadable_Reverse" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Tests.test11" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -181,7 +227,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;Test.testForDirectory_HumanReadable_Reverse&quot;" />
+            <option value="&quot;Tests.test11&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -191,7 +237,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Test.testForDirectory_IsLong_Reverse" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Tests.test12" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -204,7 +250,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;Test.testForDirectory_IsLong_Reverse&quot;" />
+            <option value="&quot;Tests.test12&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -214,7 +260,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Test.testForFile" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Tests.test2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -227,7 +273,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;Test.testForFile&quot;" />
+            <option value="&quot;Tests.test2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -259,19 +305,19 @@
     <list>
       <item itemvalue="Gradle.Main" />
       <item itemvalue="Gradle.Class [&quot;C:\\Users\\PC\\3D Objects&quot; &quot;[-l]&quot;]" />
-      <item itemvalue="Gradle.Test.testAnswerInFile" />
-      <item itemvalue="Gradle.Test.testForDirectory_HumanReadable" />
-      <item itemvalue="Gradle.Test.testForDirectory_HumanReadable_Reverse" />
-      <item itemvalue="Gradle.Test.testForDirectory_IsLong_Reverse" />
-      <item itemvalue="Gradle.Test.testForFile" />
+      <item itemvalue="Gradle.Tests.test1" />
+      <item itemvalue="Gradle.Tests.test11" />
+      <item itemvalue="Gradle.Tests.test12" />
+      <item itemvalue="Gradle.Tests.test2" />
+      <item itemvalue="Gradle.Tests" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Test.testForDirectory_IsLong_Reverse" />
-        <item itemvalue="Gradle.Test.testForFile" />
-        <item itemvalue="Gradle.Test.testAnswerInFile" />
-        <item itemvalue="Gradle.Test.testForDirectory_HumanReadable_Reverse" />
-        <item itemvalue="Gradle.Test.testForDirectory_HumanReadable" />
+        <item itemvalue="Gradle.Tests" />
+        <item itemvalue="Gradle.Tests.test1" />
+        <item itemvalue="Gradle.Tests.test2" />
+        <item itemvalue="Gradle.Tests.test11" />
+        <item itemvalue="Gradle.Tests.test12" />
       </list>
     </recent_temporary>
   </component>
@@ -297,9 +343,13 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/console_utilities_2$JavaConsoleMenuExample.ic" NAME="JavaConsoleMenuExample Coverage Results" MODIFIED="1679422109960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.example.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/console_utilities_2$Tests.ic" NAME="Tests Coverage Results" MODIFIED="1680551319064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

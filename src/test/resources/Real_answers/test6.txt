@@ -1,0 +1,2 @@
+0 bytes	Mon Apr 03 20:29:24 MSK 2023	111	first.bmp
+0 Kilobytes	rwx	first.bmp
